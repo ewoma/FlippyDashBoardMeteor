@@ -1,0 +1,165 @@
+<template name="sidebar">
+  <aside id="sidebar">
+                <div class="sidebar-inner">
+                    <div class="si-inner">
+                        <div class="profile-menu">
+                            <a href="#">
+                                <div class="profile-pic">
+                                    <img src="img/profile-pics/1.jpg" alt="">
+                                </div>
+
+                                <div class="profile-info">
+                                    Malinda Hollaway
+                                </div>
+                            </a>
+                        </div>
+
+                        <ul class="main-menu">
+                            <!-- <li class="active"><a href="index.html"><i class="md md-home"></i> Home</a></li>
+                            <li><a href="typography.html"><i class="md md-format-underline"></i> Typography</a></li> -->
+                            <li class="sub-menu">
+                                <a href="#"><i class="fa fa-user"></i> Users</a>
+
+                                <ul>
+                                  <!-- Remember to change the link here-->
+                                    <li><a href="{{pathFor 'userPost'}}">Users Post</a></li>
+                                    <li><a class="active" href="{{pathFor 'activeUsers'}}">Active Users</a></li>
+                                    <li><a class="active" href="{{pathFor 'todayUsers'}}">Today's Users</a></li>
+                                    <!-- And don't forget to change all the links in this section -->
+                                </ul>
+                            </li>
+
+                            <li class="sub-menu">
+                                <a href="#"><i class="fa fa-comments"></i> Hot Topics</a>
+
+                                  <ul>
+                                      <li><a href="{{pathFor 'allTopics'}}">All Topics</a></li>
+                                      <li><a href="{{pathFor 'todayTopics'}}">Today's Topic</a></li>
+                                      <li><a href="{{pathFor 'communityTopics'}}">Topics by Communities</a></li>
+                                  </ul>
+
+                            </li>
+
+                            <li class="sub-menu">
+                                <a href="#"><i class="fa fa-file-text"></i>Posts</a>
+
+                                <ul>
+                                    <li><a href="{{pathFor 'postAuthor'}}">Post Author</a></li>
+                                    <li><a href="{{pathFor 'postLike'}}">Most Liked Post</a></li>
+                                    <li><a href="{{pathFor 'postView'}}">Most Viewed Post</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="fa fa-users"></i>Community</a>
+                                <ul>
+                                    <li class="sub-menu">
+                                      All Communities
+                                    <ul>
+                                      <li class="sub-menu">
+                                      University of Ghana
+                                        <ul>
+
+                                          <li><a href="{{pathFor 'UGChannel'}}">Channels</a></li>
+                                          <li><a href="{{pathFor 'UGUsers'}}">Users</a></li>
+                                          <li><a href="{{pathFor'UGPosts'}}">Posts</a></li>
+
+                                        </ul>
+                                      </li>
+                                      <li class="sub-menu">
+                                      KNUST
+                                        <ul>
+
+                                          <li><a href="{{pathFor 'KNUSTChannel'}}">Channels</a></li>
+                                          <li><a href="{{pathFor 'KNUSTUsers'}}">Users</a></li>
+                                          <li><a href="{{pathFor 'KNUSTPosts'}}">Posts</a></li>
+
+                                        </ul>
+                                      </li>
+                                      <li class="sub-menu">
+                                        University of CapeCoast
+                                        <ul>
+
+                                          <li><a href="{{pathFor 'UCCChannel'}}">Channels</a></li>
+                                          <li><a href="{{pathFor 'UCCUsers'}}">Users</a></li>
+                                          <li><a href="{{pathFor 'UCCPosts'}}">Posts</a></li>
+
+                                        </ul>
+                                      </li>
+                                      <li class="sub-menu">
+                                        CBIT
+                                        <ul>
+
+                                          <li><a href="{{pathFor 'CBITChannel'}}">Channels</a></li>
+                                          <li><a href="{{pathFor 'CBITUsers'}}">Users</a></li>
+                                          <li><a href="{{pathFor 'CBITPosts'}}">Posts</a></li>
+
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                    <!-- <li><a href="buttons.html">Buttons</a></li>
+                                    <li><a href="icons.html">Icons</a></li>
+                                    <li><a href="alerts.html">Alerts</a></li>
+                                    <li><a href="notification-dialog.html">Notifications & Dialogs</a></li>
+                                    <li><a href="media.html">Media</a></li>
+                                    <li><a href="components.html">Components</a></li>
+                                    <li><a href="other-components.html">Others</a></li> -->
+                                </ul>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="#"><i class="fa fa-sitemap"></i>`Channel</a>
+                                <ul>
+                                    <li class="sub-menu">
+                                      <a href="animations.html">Channel 1</a>
+                                      <ul>
+                                        <li><a href="#">Members</a></li>
+                                        <li><a href="#">Posts</a></li>
+                                      </ul>
+                                    </li>
+
+                                    <li class="sub-menu">
+                                      <a href="animations.html">Channel 2</a>
+                                      <ul>
+                                        <li><a href="#">Members</a></li>
+                                        <li><a href="#">Posts</a></li>
+                                      </ul>
+                                    </li>
+
+                                    <li class="sub-menu">
+                                      <a href="animations.html">Channel 3</a>
+                                      <ul>
+                                        <li><a href="#">Members</a></li>
+                                        <li><a href="#">Posts</a></li>
+                                      </ul>
+                                    </li>
+
+                                    <li class="sub-menu">
+                                      <a href="animations.html">Channel 4</a>
+                                      <ul>
+                                        <li><a href="#">Members</a></li>
+                                        <li><a href="#">Posts</a></li>
+                                      </ul>
+                                    </li>
+
+                                    <!-- <li><a href="other-charts.html">Other Charts</a></li> -->
+                                </ul>
+                            </li>
+
+                            <li class="sub-menu">
+                                <a href="#"><i class="fa fa-list"></i> Flips</a>
+
+                                  <ul>
+                                    <li><a href="flips.html">Today's Flip</a></li>
+                                    <li><a href="Sflips.html">Sponsored Flips</a></li>
+                                  </ul>
+                            </li>
+
+                            <li><a href="#"><i class="fa fa-tags"></i>Events</a></li>
+                            <li><a href="#">Battles</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+</template>

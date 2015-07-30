@@ -1,0 +1,21 @@
+#header{
+  background: #E99A27 !important;
+}
+
+#sidebar .main-menu>li.sub-menu>a:before {
+  content: "\f067";
+  font-family: FontAwesome;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+#sidebar .main-menu>li.sub-menu.toggled>a:after {
+  font-family: FontAwesome;
+  content: "\f068";
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
