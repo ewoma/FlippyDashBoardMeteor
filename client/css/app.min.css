@@ -11267,7 +11267,8 @@ input:active, input:focus {
     box-shadow: 0 2px 7px rgba(0, 0, 0, .18);
 }
 .btn-float i {
-    font-size: 23px;
+    font-size: 19px;
+    padding-top: 31%;
     -webkit-transition: all;
     -moz-transition: all;
     -o-transition: all;
@@ -12508,7 +12509,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     background: #f2f2f2;
 }
 .four-zero-content {
-    background: #fff;
+    background: #f44336;
     padding: 20px;
 }
 .four-zero-content:before {
@@ -12517,16 +12518,16 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     position: absolute;
     top: 0;
     left: 0;
-    background: #EDECEC;
+    background: #E99A27;
     content: ""}
 .four-zero {
-    background: #00bcd4;
-    box-shadow: 0 1px 11px rgba(0, 0, 0, .27);
+    background: #fff;
+    box-shadow: 0 1px 11px rgba(1, 1, 1, .27);
     border-radius: 2px;
     position: absolute;
     top: 50%;
     margin-top: -150px;
-    color: #fff;
+    color: #E99A27;
     text-align: center;
     padding: 15px;
     height: 300px;
@@ -12536,6 +12537,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 }
 .four-zero h2 {
     font-size: 130px;
+    background: #fff;
 }
 @media (max-width:767px) {
     .four-zero {
@@ -12549,9 +12551,9 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     font-size: 90px;
 }
 }.four-zero h2 {
-    line-height: 100%;
-    color: #fff;
-    font-weight: 100;
+     line-height: 100%;
+  color: #E99A27;
+  font-weight: 100;
 }
 .four-zero small {
     display: block;
@@ -12559,22 +12561,22 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     margin-top: -10px;
 }
 .four-zero footer {
-    background: rgba(0, 0, 0, .13);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
+    background: #E99A27;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
 }
 .four-zero footer>a {
     font-size: 21px;
     display: inline-block;
-    color: #FFF;
+    color: #E99A27;
     margin: 0 1px;
     line-height: 40px;
     width: 40px;
     height: 40px;
-    background: rgba(0, 0, 0, .09);
+    background: #fff;
     border-radius: 50%;
     text-align: center;
     -webkit-transition: all;
@@ -12597,7 +12599,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     padding: 35px 55px;
     width: 500px;
     display: inline-block;
-    margin-top: -60px;
+    margin-top: 10%;
     vertical-align: middle;
     position: relative;
 }
@@ -12674,16 +12676,16 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     opacity: 1;
     filter: alpha(opacity=100);
 }
-body.login-content {
+.login-content {
     text-align: center;
 }
-body.login-content:after {
+.login-content:after {
     content: "";
     vertical-align: middle;
     display: inline-block;
     width: 1px;
     height: 100%}
-body.login-content:before {
+.login-content:before {
     height: 50%;
     width: 100%;
     position: absolute;

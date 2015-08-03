@@ -19,3 +19,10 @@
   -o-transform: scale(1);
   transform: scale(1);
 }
+.orangify{
+ color:#f44336 ;
+}
+
+.sidebar{
+  color: #E99A27;
+}
