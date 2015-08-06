@@ -1,5 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
 #header{
-  background: #E99A27 !important;
+  background: #E47E26 !important;
 }
 
 #sidebar .main-menu>li.sub-menu>a:before {
@@ -24,5 +25,5 @@
 }
 
 .sidebar{
-  color: #E99A27;
+  color: #E47E26;
 }

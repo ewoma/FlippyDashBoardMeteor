@@ -1,0 +1,12 @@
+{
+	"public": {
+		"persistent_session": {
+			"default_method": "persistent"
+		}
+		},
+
+	"flippy":
+		{
+			"login" : "http://flippy-dev-api1.herokuapp.com/api/v1.0/users/login/"
+		}
+}
