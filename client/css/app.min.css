@@ -8977,7 +8977,7 @@ body #content {
 }
 #sidebar {
     position: fixed;
-    background: #E47E26;
+    background: #fff;
     box-shadow: 0 0 10px rgba(51, 51, 51, .38);
     top: 65px;
     height: calc(100% - 65px);
@@ -9021,7 +9021,7 @@ body #content {
     box-sizing: content-box;
 }
 #sidebar .profile-menu>a .profile-info {
-    background: rgba(0, 0, 0, .37);
+    background:#E47E26;
     padding: 7px 14px;
     color: #fff;
     margin-top: 20px;
@@ -9073,13 +9073,13 @@ body #content {
 #sidebar .main-menu>li>a {
     padding: 14px 20px 14px 52px;
     display: block;
-    color: #4C4C4C;
+    color: #E47E26;
     font-weight: 500;
     position: relative;
 }
 #sidebar .main-menu>li>a:hover {
-    color: #262626;
-    background-color: #f7f7f7;
+    color: #fff;
+    background-color: #E47E26;
 }
 #sidebar .main-menu>li>a>i {
     position: absolute;
@@ -9094,7 +9094,7 @@ body #content {
     position: absolute;
     right: 10px;
     top: 12px;
-    color: #575757;
+    color: #E47E26;
     font-family: 'Material Design Iconic Font';
     font-size: 17px;
     -webkit-transition: all;

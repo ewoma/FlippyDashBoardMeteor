@@ -3,7 +3,7 @@
   background: #E47E26 !important;
 }
 
-#sidebar .main-menu>li.sub-menu>a:before {
+/*#sidebar .main-menu>li.sub-menu.toggled>a:before {
   content: "\f067";
   font-family: FontAwesome;
   -webkit-transform: scale(1);
@@ -13,17 +13,28 @@
 }
 
 #sidebar .main-menu>li.sub-menu.toggled>a:after {
-  font-family: FontAwesome;
   content: "\f068";
+  font-family: FontAwesome;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   -o-transform: scale(1);
   transform: scale(1);
-}
+}*/
 .orangify{
  color:#f44336 ;
 }
 
 .sidebar{
   color: #E47E26;
+}
+
+#sidebar .main-menu>li.sub-menu>a:before,a:hover{
+  color: #E47E26;
+  background-color: #fff;
+}
+
+ #sidebar .main-menu>li.sub-menu>a:after, a:hover{
+  color: #fff;
+  background-color: #E47E26;
+
 }

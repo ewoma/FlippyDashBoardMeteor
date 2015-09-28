@@ -7,6 +7,7 @@
 
 	"flippy":
 		{
-			"login" : "http://flippy-dev-api1.herokuapp.com/api/v1.0/users/login/"
+			"login" : "http://new-flippy-api.herokuapp.com/api/v1.0/users/login/",
+			"posts" : "http://new-flippy-api.herokuapp.com/api/v1.0/posts/"
 		}
 }
